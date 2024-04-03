@@ -1,5 +1,7 @@
+import config from '../../config/variables';
+
 export const Home = () => {
     return (
-        <div>Home</div>
+        <div>Home, port: { config.react__port }</div>
     )
 }
