@@ -9,7 +9,7 @@ FROM node:20.5-alpine as builder
 WORKDIR /app
 COPY --from=dev-deps /app/node_modules ./node_modules
 COPY . .
-# RUN yarn test
+RUN yarn test-prod
 RUN yarn build
 
 FROM nginx:1.23.3 as prod

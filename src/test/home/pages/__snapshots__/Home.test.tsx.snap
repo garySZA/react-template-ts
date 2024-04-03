@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <Home /> Debe ser igual al snapshot 1`] = `
+<div>
+  <div>
+    Home - test
+  </div>
+</div>
+`;
